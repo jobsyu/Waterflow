@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShopCell.h
 //  Waterflow
 //
 //  Created by jobs on 15/7/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+@class Shop;
+@interface ShopCell : UICollectionViewCell
+@property (nonatomic,strong) Shop *shop;
 @end
-
