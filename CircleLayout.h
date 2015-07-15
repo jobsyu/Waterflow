@@ -1,5 +1,5 @@
 //
-//  ImageCell.h
+//  CircleLayout.h
 //  UICollectionView
 //
 //  Created by jobs on 15/7/15.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ImageCell : UICollectionViewCell
-@property (nonatomic,copy) NSString *image;
+@interface CircleLayout : UICollectionViewFlowLayout
+
+
 @end
